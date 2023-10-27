@@ -94,6 +94,17 @@ document.addEventListener("DOMContentLoaded", function () {
     function updateValues() {
     
     const selectedValue1 = parseInt(selectorElement1.options[selectorElement1.selectedIndex].getAttribute("data-value"), 10);
+       const MAG = parseInt(selectorElement1.options[selectorElement1.selectedIndex].getAttribute("data-mag"), 10);
+       const PMAG = parseInt(selectorElement1.options[selectorElement1.selectedIndex].getAttribute("data-pmag"), 10);
+       const CMAG = parseInt(selectorElement1.options[selectorElement1.selectedIndex].getAttribute("data-cmag"), 10);
+       const PHY = parseInt(selectorElement1.options[selectorElement1.selectedIndex].getAttribute("data-phy"), 10);
+       const PRE = parseInt(selectorElement1.options[selectorElement1.selectedIndex].getAttribute("data-pre"), 10);
+       const CRIT = parseInt(selectorElement1.options[selectorElement1.selectedIndex].getAttribute("data-crit"), 10);
+       const BLOC = parseInt(selectorElement1.options[selectorElement1.selectedIndex].getAttribute("data-bloc"), 10);
+       const PARA = parseInt(selectorElement1.options[selectorElement1.selectedIndex].getAttribute("data-para"), 10);
+       const RES = parseInt(selectorElement1.options[selectorElement1.selectedIndex].getAttribute("data-res"), 10);
+       const VIE = parseInt(selectorElement1.options[selectorElement1.selectedIndex].getAttribute("data-vie"), 10);
+       
     const imageSrc1 = selectorElement1.options[selectorElement1.selectedIndex].getAttribute("data-image");
 
     const selectedValue2 = parseInt(selectorElement2.options[selectorElement2.selectedIndex].getAttribute("data-value"), 10);
