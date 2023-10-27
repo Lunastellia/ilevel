@@ -1,14 +1,14 @@
 document.addEventListener("DOMContentLoaded", function () {
    
-    // Premier ensemble de menus déroulants
+    // class
     const imageElement = document.getElementById("image");
     const selectorElement = document.getElementById("image-selector");
-
+    
+   //Armes
     // Deuxième ensemble de menus déroulants
     const imageElement2 = document.getElementById("image2");
     const selectorElement2 = document.getElementById("image-selector2");
-
-    //Arme
+   
     const imageElement3 = document.getElementById("image3");
     const selectorElement3 = document.getElementById("image-selector3");
     //Aile
@@ -117,8 +117,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const imageSrc17 = selectorElement17.options[selectorElement17.selectedIndex].getAttribute("data-image");
 
 
-        ilevelValueElement.textContent = selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10 + selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17;
-        offensiveValueElement.textContent = selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10;
+        ilevelValueElement.textContent = selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10 + selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17;
+        offensiveValueElement.textContent = selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10;
         defensiveValueElement.textContent = selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17;
 
         imageElement.src = imageSrc1;
