@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 imageElement.src = "https://github.com/Lunastellia/ilevel/blob/main/pic/head0.png";
                 break;
             case "1":
-                imageElement.src = "pic/head1.png";
+                imageElement.src = "https://github.com/Lunastellia/ilevel/blob/main/pic/head1.png";
                 break;
             case "2":
                 imageElement.src = "https://github.com/Lunastellia/ilevel/blob/main/pic/head2.png";
