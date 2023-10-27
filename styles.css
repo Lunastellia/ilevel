@@ -32,7 +32,7 @@ h1 {
 }
 
 .image-select-container img {
-    height: 80px; /* Ajustez la hauteur selon vos préférences */
+    height: 28px; /* Ajustez la hauteur selon vos préférences */
     margin-right: 10px;
 }
 
@@ -45,6 +45,7 @@ h1 {
 select {
     font-size: 16px; /* Ajustez la taille de police selon vos préférences */
     padding: 5px;
+    width: 200px;
 }
 
 .ilevel-container {
