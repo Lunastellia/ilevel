@@ -28,7 +28,7 @@ h1 {
 .image-select-container {
     display: flex;
     align-items: center;
-    margin: 20px;
+    margin: 6px;
 }
 
 .image-select-container img {
@@ -107,7 +107,7 @@ select {
 
 td {
     vertical-align: top;
-    margin: 20px; 
+    margin: 30px; 
 }
 
 #image18 {
