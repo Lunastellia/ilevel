@@ -17,12 +17,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  /*  min-height: 100vh;*/
+    min-height: 100vh;
 }
 
 h1 {
     font-size: 24px;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
 }
 
 .image-select-container {
@@ -44,7 +44,7 @@ h1 {
 
 #image-selector18 {
     font-size: 16px; /* Ajustez la taille de police selon vos préférences */
-    padding: 0px;
+    padding: 5px;
     idth: 55px
 }
 
@@ -56,7 +56,7 @@ select {
 
 #image-selector18 {
     font-size: 16px; /* Ajustez la taille de police selon vos préférences */
-    padding: 0px;
+    padding: 5px;
     idth: 55px
 }
 
