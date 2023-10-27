@@ -21,23 +21,6 @@ h1 {
     margin-bottom: 20px;
 }
 
-.image-select-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* Aligner les éléments à gauche et à droite */
-    margin: 5px;
-}
-
-.image-select-container img {
-    height: 28px; /* Ajustez la hauteur selon vos préférences */
-    margin-right: 0px;
-}
-
-.dropdown {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end; /* Aligner les menus déroulants à droite */
-}
 
 
 
