@@ -103,6 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
        const BLOC = parseInt(selectorElement1.options[selectorElement1.selectedIndex].getAttribute("data-bloc"), 10);
        const PARA = parseInt(selectorElement1.options[selectorElement1.selectedIndex].getAttribute("data-para"), 10);
        const RES = parseInt(selectorElement1.options[selectorElement1.selectedIndex].getAttribute("data-res"), 10);
+       const ESQ = parseInt(selectorElement1.options[selectorElement1.selectedIndex].getAttribute("data-esq"), 10);
        const VIE = parseInt(selectorElement1.options[selectorElement1.selectedIndex].getAttribute("data-vie"), 10);
        
     const imageSrc1 = selectorElement1.options[selectorElement1.selectedIndex].getAttribute("data-image");
