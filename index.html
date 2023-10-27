@@ -8,20 +8,36 @@
 </head>
 <body>
     <div class="container">
+        <h1>Image Changer App</h1>
+        
+        <!-- Premier ensemble de menus déroulants -->
         <div class="image-container">
-            <img id="item_head" src="pic/head0.png" alt="item_head">
+            <img id="image" src="pic/head0.png" alt="Image">
         </div>
         <div class="dropdown">
-            <select id="item_head-selector">
+            <select id="image-selector">
                 <option value="0">None</option>
                 <option value="1">Test 1</option>
                 <option value="2">Test 2</option>
                 <option value="3">Test 3</option>
             </select>
         </div>
-        <p id="item_head-selectedvalue">0</p>
+        <p id="selected-value">Selected Value: 0</p>
+        
+        <!-- Deuxième ensemble de menus déroulants -->
+        <div class="image-container">
+            <img id="image2" src="div/truc.png" alt="Image">
+        </div>
+        <div class="dropdown">
+            <select id="image-selector2">
+                <option value="5">Truc</option>
+                <option value="10">Bidule</option>
+            </select>
+        </div>
+        <p id="selected-value2">Selected Value: 5</p>
     </div>
     <script src="script.js"></script>
 </body>
 </html>
+
 
