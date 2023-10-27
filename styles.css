@@ -53,11 +53,11 @@ td {
     vertical-align: top;
     margin: 10px; 
 }
-/* Masquer les flèches + et - des champs de texte de type "number" */
-input[type="number"] {
-    width: 20px; /* Réduire la largeur à 40px (ajustez selon vos préférences) */
-    font-size: 18px; /* Réduire la taille de police à 15px (ajustez selon vos préférences) */
-    text-align: center;
+#ench-weapon {
+    color: white; /* Texte en blanc */
+    border: none; /* Supprimer la bordure */
+    background: none; /* Supprimer l'arrière-plan */
+    outline: none; /* Supprimer l'effet de focus */
 }
 
 .ilevel-container {
