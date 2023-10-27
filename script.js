@@ -79,6 +79,7 @@ increaseButton.addEventListener("click", function () {
     if (!isNaN(currentValue) && currentValue >= 0 && currentValue < 15) {
         // Augmenter la valeur de Ench_weapon de 1
         enchWeaponInput.value = currentValue + 1;
+       ench = enchWeaponInput.value;
     }
 });
 
@@ -91,6 +92,7 @@ decreaseButton.addEventListener("click", function () {
     if (!isNaN(currentValue) && currentValue > 0 && currentValue <= 15) {
         // Diminuer la valeur de Ench_weapon de 1
         enchWeaponInput.value = currentValue - 1;
+        ench = enchWeaponInput.value;
     }
 });
 
