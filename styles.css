@@ -58,8 +58,9 @@ input[type="number"] {
     -webkit-appearance: textfield; /* Pour Safari/Chrome */
     -moz-appearance: textfield; /* Pour Firefox */
     appearance: textfield;
-    width: 40px; /* Réduire la largeur à 40px (ajustez selon vos préférences) */
+    width: 20px; /* Réduire la largeur à 40px (ajustez selon vos préférences) */
     font-size: 15px; /* Réduire la taille de police à 15px (ajustez selon vos préférences) */
+    text-align: center;
 }
 
 .ilevel-container {
