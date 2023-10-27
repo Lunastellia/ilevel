@@ -55,6 +55,13 @@ document.addEventListener("DOMContentLoaded", function () {
     const imageElement17 = document.getElementById("image17");
     const selectorElement17 = document.getElementById("image-selector17");
 
+       const Ench1 = parseInt(userValue1);
+       const Ench2 = 0;
+       const Ench3 = 0;
+       const Ench4 = 0;
+       const Ench5 = 0;
+       const Ench6 = 0;
+   
 //Enchant
 
   // Récupérer le champ de texte et la "valeur offensive"
@@ -70,7 +77,6 @@ userInput.addEventListener("change", function () {
 
     // Assurez-vous que la valeur est dans la plage de 0 à 15
     if (!isNaN(userValueNumbe1r) && userValueNumber1 >= 0 && userValueNumber1 <= 15) {
-        // Mettre à jour la "valeur offensive"
         Ench1 = userValueNumber1;
     } else {
         // Gérer le cas où la valeur est en dehors de la plage
@@ -135,11 +141,11 @@ userInput.addEventListener("change", function () {
     const selectedValue17 = parseInt(selectorElement17.options[selectorElement17.selectedIndex].getAttribute("data-value"), 10);
     const imageSrc17 = selectorElement17.options[selectorElement17.selectedIndex].getAttribute("data-image");
 
-    const Ench1 = 0;
+    
 
        
         ilevelValueElement.textContent = Ench1 + selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10 + selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17;
-        offensiveValueElement.textContent = Enchn1 + selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10;
+        offensiveValueElement.textContent = Ench1 + selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10;
         defensiveValueElement.textContent = selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17;
 
         imageElement.src = imageSrc1;
