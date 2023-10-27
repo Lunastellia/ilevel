@@ -48,7 +48,7 @@ h1 {
 
 select {
     font-size: 16px; /* Ajustez la taille de police selon vos préférences */
-    padding: 5px;
+/*padding: 5px;*/
     width: 200px;
 }
 
