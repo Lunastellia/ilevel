@@ -51,6 +51,7 @@ select {
 
 td {
     vertical-align: top;
+    margin: 10px; 
 }
 
 .ilevel-container {
