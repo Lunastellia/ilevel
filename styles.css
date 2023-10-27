@@ -23,7 +23,7 @@ h1 {
 
 .image-select-container {
     display: flex;
-    /*align-items: center;*/
+    align-items: center;
     justify-content: space-between; /* Aligner les éléments à gauche et à droite */
     margin: 5px;
 }
@@ -35,16 +35,11 @@ h1 {
 
 .dropdown {
     display: flex;
-    /*align-items: center;*/
+    align-items: center;
     justify-content: flex-end; /* Aligner les menus déroulants à droite */
 }
 
-/* Ajoutez de la marge à droite pour séparer l'image et le menu déroulant */
-select {
-    font-size: 16px; /* Ajustez la taille de police selon vos préférences */
-    padding: 5px;
-    margin-left: 5px; /* Ajoutez de la marge à gauche pour coller le menu déroulant à l'image */
-}
+
 
 .ilevel-container {
     text-align: center;
