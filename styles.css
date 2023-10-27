@@ -43,17 +43,21 @@ h1 {
 }
 
 #image-selector18 {
-    width: 55px
+    font-size: 16px; /* Ajustez la taille de police selon vos préférences */
+    padding: 0px;
+    idth: 55px
 }
 
 select {
     font-size: 16px; /* Ajustez la taille de police selon vos préférences */
-/*padding: 5px;*/
+    padding: 5px;
     width: 200px;
 }
 
 #image-selector18 {
-    width: 55px
+    font-size: 16px; /* Ajustez la taille de police selon vos préférences */
+    padding: 0px;
+    idth: 55px
 }
 
 
