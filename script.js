@@ -164,10 +164,12 @@ document.addEventListener("DOMContentLoaded", function () {
     const selectedValue24 = parseInt(selectorElement24.options[selectorElement24.selectedIndex].getAttribute("data-value"), 10);
     const imageSrc24 = selectorElement24.options[selectorElement24.selectedIndex].getAttribute("data-image");
 
+       const EnchClass = selectedValue18 * selectedValue;
+
 
        
-        ilevelValueElement.textContent = selectedValue18 + selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10 + selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17;
-        offensiveValueElement.textContent = selectedValue18 + selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10;
+        ilevelValueElement.textContent = EnchClass + selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10 + selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17;
+        offensiveValueElement.textContent = EnchClass + selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10;
         defensiveValueElement.textContent = selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17;
 
         imageElement.src = imageSrc1;
