@@ -63,6 +63,36 @@ document.addEventListener("DOMContentLoaded", function () {
     const offensiveValueElement = document.getElementById("offensive-value");
     const defensiveValueElement = document.getElementById("defensive-value");
 
+// Récupérer le champ de texte et les boutons
+const enchWeaponInput = document.getElementById("ench-weapon");
+const increaseButton = document.getElementById("increase-button");
+const decreaseButton = document.getElementById("decrease-button");
+
+// Ajouter un gestionnaire d'événements au bouton d'augmentation
+increaseButton.addEventListener("click", function () {
+    // Récupérer la valeur actuelle de Ench_weapon
+    const currentValue = parseInt(enchWeaponInput.value);
+
+    // Vérifier si la valeur est dans la plage de 0 à 15
+    if (!isNaN(currentValue) && currentValue >= 0 && currentValue < 15) {
+        // Augmenter la valeur de Ench_weapon de 1
+        enchWeaponInput.value = currentValue + 1;
+    }
+});
+
+// Ajouter un gestionnaire d'événements au bouton de diminution
+decreaseButton.addEventListener("click", function () {
+    // Récupérer la valeur actuelle de Ench_weapon
+    const currentValue = parseInt(enchWeaponInput.value);
+
+    // Vérifier si la valeur est dans la plage de 0 à 15
+    if (!isNaN(currentValue) && currentValue > 0 && currentValue <= 15) {
+        // Diminuer la valeur de Ench_weapon de 1
+        enchWeaponInput.value = currentValue - 1;
+    }
+});
+
+   
     // Fonction pour mettre à jour les valeurs
     function updateValues() {
     const selectedValue1 = parseInt(selectorElement.options[selectorElement.selectedIndex].getAttribute("data-value"), 10);
