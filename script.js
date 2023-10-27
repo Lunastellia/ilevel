@@ -78,11 +78,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const selectorElement24 = document.getElementById("image-selector24");
 
    //STATS
-   const imageElement24 = document.getElementById("image24");
-   const selectorElement24 = document.getElementById("image-selector24");
-
-   const imageElement24 = document.getElementById("image24");
-   const selectorElement24 = document.getElementById("image-selector24");
 
    const imageElement25 = document.getElementById("image25");
    const selectorElement25 = document.getElementById("image-selector25");
@@ -215,9 +210,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const selectedValue24 = parseInt(selectorElement24.options[selectorElement24.selectedIndex].getAttribute("data-value"), 10);
     const imageSrc24 = selectorElement24.options[selectorElement24.selectedIndex].getAttribute("data-image");
 
-    const selectedValue24 = parseInt(selectorElement24.options[selectorElement24.selectedIndex].getAttribute("data-value"), 10);
-    const imageSrc24 = selectorElement24.options[selectorElement24.selectedIndex].getAttribute("data-image");
-
     const selectedValue25 = parseInt(selectorElement25.options[selectorElement25.selectedIndex].getAttribute("data-value"), 10);
     const imageSrc25 = selectorElement25.options[selectorElement25.selectedIndex].getAttribute("data-image");
 
@@ -282,7 +274,6 @@ document.addEventListener("DOMContentLoaded", function () {
         imageElement22.src = imageSrc22;
         imageElement23.src = imageSrc23;
         imageElement24.src = imageSrc24;
-        imageElement24.src = imageSrc24;
         imageElement25.src = imageSrc25;
         imageElement26.src = imageSrc26;
         imageElement27.src = imageSrc27;
@@ -322,7 +313,6 @@ document.addEventListener("DOMContentLoaded", function () {
     selectorElement21.addEventListener("change", updateValues);
     selectorElement22.addEventListener("change", updateValues);
     selectorElement23.addEventListener("change", updateValues);
-    selectorElement24.addEventListener("change", updateValues);
     selectorElement24.addEventListener("change", updateValues);
     selectorElement25.addEventListener("change", updateValues);
     selectorElement26.addEventListener("change", updateValues);
