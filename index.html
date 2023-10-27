@@ -4,17 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Counter App</title>
+    <title>Image Changer App</title>
 </head>
 <body>
     <div class="container">
-        <h1>Counter App</h1>
-        <div class="counter">
-            <p id="count">0</p>
+        <h1>Image Changer App</h1>
+        <div class="image-container">
+            <img id="image" src="pic/head0.png" alt="Image">
         </div>
-        <button id="add">Add</button>
-        <button id="remove">Remove</button>
+        <div class="dropdown">
+            <select id="image-selector">
+                <option value="0">None</option>
+                <option value="1">Test 1</option>
+                <option value="2">Test 2</option>
+                <option value="3">Test 3</option>
+            </select>
+        </div>
+        <p id="selected-value">Selected Value: 0</p>
     </div>
     <script src="script.js"></script>
 </body>
 </html>
+
