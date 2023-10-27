@@ -58,6 +58,26 @@ document.addEventListener("DOMContentLoaded", function () {
    // Enchant
     const imageElement18 = document.getElementById("image18");
     const selectorElement18 = document.getElementById("image-selector18");
+   
+    const imageElement19 = document.getElementById("image19");
+    const selectorElement19 = document.getElementById("image-selector19");
+   
+   const imageElement20 = document.getElementById("image20");
+    const selectorElement20 = document.getElementById("image-selector20");
+   
+   const imageElement21 = document.getElementById("image21");
+    const selectorElement21 = document.getElementById("image-selector21");
+   
+   const imageElement22 = document.getElementById("image22");
+    const selectorElement22 = document.getElementById("image-selector22");
+   
+   const imageElement23 = document.getElementById("image23");
+    const selectorElement23 = document.getElementById("image-selector23");
+   
+   const imageElement24 = document.getElementById("image24");
+    const selectorElement24 = document.getElementById("image-selector24");
+   
+  
 
       
    
@@ -126,6 +146,24 @@ document.addEventListener("DOMContentLoaded", function () {
     const selectedValue18 = parseInt(selectorElement18.options[selectorElement18.selectedIndex].getAttribute("data-value"), 10);
     const imageSrc18 = selectorElement18.options[selectorElement18.selectedIndex].getAttribute("data-image");
 
+    const selectedValue19 = parseInt(selectorElement19.options[selectorElement19.selectedIndex].getAttribute("data-value"), 10);
+    const imageSrc19 = selectorElement19.options[selectorElement19.selectedIndex].getAttribute("data-image");
+
+    const selectedValue20 = parseInt(selectorElement20.options[selectorElement20.selectedIndex].getAttribute("data-value"), 10);
+    const imageSrc20 = selectorElement20.options[selectorElement20.selectedIndex].getAttribute("data-image");
+    
+    const selectedValue21 = parseInt(selectorElement21.options[selectorElement21.selectedIndex].getAttribute("data-value"), 10);
+    const imageSrc21 = selectorElement21.options[selectorElement21.selectedIndex].getAttribute("data-image");
+
+    const selectedValue22 = parseInt(selectorElement22.options[selectorElement22.selectedIndex].getAttribute("data-value"), 10);
+    const imageSrc22 = selectorElement22.options[selectorElement22.selectedIndex].getAttribute("data-image");
+
+    const selectedValue23 = parseInt(selectorElement23.options[selectorElement23.selectedIndex].getAttribute("data-value"), 10);
+    const imageSrc23 = selectorElement23.options[selectorElement23.selectedIndex].getAttribute("data-image");
+
+    const selectedValue24 = parseInt(selectorElement24.options[selectorElement24.selectedIndex].getAttribute("data-value"), 10);
+    const imageSrc24 = selectorElement24.options[selectorElement24.selectedIndex].getAttribute("data-image");
+
 
        
         ilevelValueElement.textContent = selectedValue18 + selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10 + selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17;
@@ -149,8 +187,13 @@ document.addEventListener("DOMContentLoaded", function () {
         imageElement15.src = imageSrc15;
         imageElement16.src = imageSrc16;
         imageElement17.src = imageSrc17;
-       imageElement18.src = imageSrc18;
-
+        imageElement18.src = imageSrc18;
+        imageElement19.src = imageSrc19;
+        imageElement20.src = imageSrc20;
+        imageElement21.src = imageSrc21;
+        imageElement22.src = imageSrc22;
+        imageElement23.src = imageSrc23;
+        imageElement24.src = imageSrc24;
         
     }
 
@@ -173,6 +216,12 @@ document.addEventListener("DOMContentLoaded", function () {
     selectorElement16.addEventListener("change", updateValues);
     selectorElement17.addEventListener("change", updateValues);
     selectorElement18.addEventListener("change", updateValues);
+   selectorElement19.addEventListener("change", updateValues);
+   selectorElement20.addEventListener("change", updateValues);
+   selectorElement21.addEventListener("change", updateValues);
+   selectorElement22.addEventListener("change", updateValues);
+   selectorElement23.addEventListener("change", updateValues);
+   selectorElement24.addEventListener("change", updateValues);
 
 
 
