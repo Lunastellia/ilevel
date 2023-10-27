@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const additionalValue1 = parseInt(selectorElement.options[selectorElement.selectedIndex].getAttribute("data-value"), 10);
         const additionalValue2 = parseInt(selectorElement2.options[selectorElement2.selectedIndex].getAttribute("data-value"), 10);
 
-        ilevelValueElement.textContent = selectedValue1 + additionalValue1;
+        ilevelValueElement.textContent = additionalValue2 + additionalValue1;
         offensiveValueElement.textContent = selectedValue1 + additionalValue1;
         defensiveValueElement.textContent = selectedValue2 + additionalValue2;
     }
