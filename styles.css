@@ -48,6 +48,11 @@ select {
     width: 200px;
 }
 
+
+td {
+    vertical-align: top;
+}
+
 .ilevel-container {
     text-align: center;
     margin: 20px;
