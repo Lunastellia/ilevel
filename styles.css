@@ -41,8 +41,9 @@ h1 {
     align-items: center;
     justify-content: center; /* Centrer les menus déroulants */
 }
+
 #image-selector18 {
-    idth: 50px
+    width: 50px
 }
 select {
     font-size: 16px; /* Ajustez la taille de police selon vos préférences */
@@ -51,7 +52,7 @@ select {
 }
 
 #image-selector18 {
-    idth: 50px
+    width: 50px
 }
 
 
