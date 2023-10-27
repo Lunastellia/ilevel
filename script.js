@@ -1,50 +1,41 @@
 document.addEventListener("DOMContentLoaded", function () {
-
-  
     // Premier ensemble de menus déroulants
     const imageElement = document.getElementById("image");
     const selectorElement = document.getElementById("image-selector");
     const selectedValueElement = document.getElementById("selected-value");
-
-    selectorElement.addEventListener("change", function () {
-        const selectedValue = selectorElement.value;
-        selectedValueElement.textContent = `${selectedValue}`;
-
-        switch (selectedValue) {
-            case "0":
-                imageElement.src = "https://github.com/Lunastellia/ilevel/blob/main/pic/head0.png";
-                break;
-            case "1":
-                imageElement.src = "https://github.com/Lunastellia/ilevel/blob/main/pic/head1.png";
-                break;
-            case "2":
-                imageElement.src = "https://github.com/Lunastellia/ilevel/blob/main/pic/head2.png";
-                break;
-            case "3":
-                imageElement.src = "https://github.com/Lunastellia/ilevel/blob/main/pic/head3.png";
-                break;
-        }
-    });
 
     // Deuxième ensemble de menus déroulants
     const imageElement2 = document.getElementById("image2");
     const selectorElement2 = document.getElementById("image-selector2");
     const selectedValueElement2 = document.getElementById("selected-value2");
 
-    selectorElement2.addEventListener("change", function () {
-        const selectedValue = selectorElement2.value;
-        selectedValueElement2.textContent = `${selectedValue}`;
+    // Valeurs Ilevel global, Valeur offensive et Valeur defensive
+    const ilevelValueElement = document.getElementById("ilevel-value");
+    const offensiveValueElement = document.getElementById("offensive-value");
+    const defensiveValueElement = document.getElementById("defensive-value");
 
-        switch (selectedValue) {
-            case "5":
-                imageElement2.src = "https://github.com/Lunastellia/ilevel/blob/main/pic/head0.png";
-                break;
-            case "10":
-                imageElement2.src = "https://github.com/Lunastellia/ilevel/blob/main/pic/head2.png";
-                break;
-        }
-    });
+    // Fonction pour mettre à jour les valeurs
+    function updateValues() {
+        const selectedValue1 = parseInt(selectorElement.value, 10);
+        const selectedValue2 = parseInt(selectorElement2.value, 10);
 
-  
+        const additionalValue1 = parseInt(selectorElement.options[selectorElement.selectedIndex].getAttribute("data-value"), 10);
+        const additionalValue2 = parseInt(selectorElement2.options[selectorElement2.selectedIndex].getAttribute("data-value"), 10);
+
+        selectedValueElement.textContent = `Selected Value: ${selectedValue1}`;
+        selectedValueElement2.textContent = `Selected Value: ${selectedValue2}`;
+
+        ilevelValueElement.textContent = selectedValue1 + selectedValue2;
+        offensiveValueElement.textContent = selectedValue1 + additionalValue1;
+        defensiveValueElement.textContent = selectedValue2 + additionalValue2;
+    }
+
+    // Gestionnaires d'événements pour les menus déroulants
+    selectorElement.addEventListener("change", updateValues);
+    selectorElement2.addEventListener("change", updateValues);
+
+    // Mise à jour des valeurs au chargement de la page
+    updateValues();
 });
+
 
