@@ -1,7 +1,10 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const imageElement = document.getElementById("image");
-    const selectorElement = document.getElementById("image-selector");
-    const selectedValueElement = document.getElementById("selected-value");
+document.addEventListener("DOMContentLoaded", function ()
+                        
+{
+    // 
+    const imageElement = document.getElementById("item_head");
+    const selectorElement = document.getElementById("item_head-selector");
+    const selectedValueElement = document.getElementById("item_head-selectedvalue");
 
     selectorElement.addEventListener("change", function () {
         const selectedValue = selectorElement.value;
@@ -22,5 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 break;
         }
     });
+
+    
 });
 
