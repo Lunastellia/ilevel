@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     selectorElement.addEventListener("change", function () {
         const selectedValue = selectorElement.value;
-        selectedValueElement.textContent = `Selected Value: ${selectedValue}`;
+        selectedValueElement.textContent = `${selectedValue}`;
 
         switch (selectedValue) {
             case "0":
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     selectorElement2.addEventListener("change", function () {
         const selectedValue = selectorElement2.value;
-        selectedValueElement2.textContent = `Selected Value: ${selectedValue}`;
+        selectedValueElement2.textContent = `${selectedValue}`;
 
         switch (selectedValue) {
             case "5":
