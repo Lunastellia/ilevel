@@ -1,33 +1,54 @@
 body {
-    background-color: black;
-    color: white;
     font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-    margin-top: 100px;
+    text-align: center;
+    margin: 20px;
 }
 
 h1 {
     font-size: 24px;
 }
 
-.counter {
-    font-size: 36px;
+.image-select-container {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.image-select-container img {
+    height: 100px; /* Ajustez la hauteur selon vos préférences */
+    margin-right: 10px;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+}
+
+select {
+    font-size: 16px; /* Ajustez la taille de police selon vos préférences */
+    padding: 5px;
+}
+
+.ilevel-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.ilevel-container p {
+    font-size: 18px;
+}
+
+.ilevel-container span {
     font-weight: bold;
 }
 
-button {
-    font-size: 18px;
-    margin: 10px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
+/* Ajoutez d'autres styles CSS personnalisés si nécessaire */
 
-button:hover {
-    background-color: #0056b3;
-}
