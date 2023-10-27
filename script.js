@@ -1,14 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
-   
     // Premier ensemble de menus déroulants
     const imageElement = document.getElementById("image");
     const selectorElement = document.getElementById("image-selector");
-    const selectedValueElement = document.getElementById("selected-value");
 
     // Deuxième ensemble de menus déroulants
     const imageElement2 = document.getElementById("image2");
     const selectorElement2 = document.getElementById("image-selector2");
-    const selectedValueElement2 = document.getElementById("selected-value2");
 
     // Valeurs Ilevel global, Valeur offensive et Valeur defensive
     const ilevelValueElement = document.getElementById("ilevel-value");
@@ -20,12 +17,12 @@ document.addEventListener("DOMContentLoaded", function () {
         const selectedValue1 = parseInt(selectorElement.value, 10);
         const selectedValue2 = parseInt(selectorElement2.value, 10);
 
-        selectedValueElement.textContent = `Selected Value: ${selectedValue1}`;
-        selectedValueElement2.textContent = `Selected Value: ${selectedValue2}`;
+        const additionalValue1 = parseInt(selectorElement.options[selectorElement.selectedIndex].getAttribute("data-value"), 10);
+        const additionalValue2 = parseInt(selectorElement2.options[selectorElement2.selectedIndex].getAttribute("data-value"), 10);
 
-        ilevelValueElement.textContent = selectedValue1 + selectedValue2;
-        offensiveValueElement.textContent = selectedValue1;
-        defensiveValueElement.textContent = selectedValue2;
+        ilevelValueElement.textContent = selectedValue1 + additionalValue1;
+        offensiveValueElement.textContent = selectedValue1 + additionalValue1;
+        defensiveValueElement.textContent = selectedValue2 + additionalValue2;
     }
 
     // Gestionnaires d'événements pour les menus déroulants
@@ -35,6 +32,5 @@ document.addEventListener("DOMContentLoaded", function () {
     // Mise à jour des valeurs au chargement de la page
     updateValues();
 });
-
 
 
