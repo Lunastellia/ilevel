@@ -12,16 +12,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
         switch (selectedValue) {
             case "0":
-                imageElement.src = "pic/head0.png";
+                imageElement.src = "https://github.com/Lunastellia/ilevel/blob/main/pic/head0.png";
                 break;
             case "1":
-                imageElement.src = "pic/head1.png";
+                imageElement.src = "https://github.com/Lunastellia/ilevel/blob/main/pic/head1.png";
                 break;
             case "2":
-                imageElement.src = "pic/head2.png";
+                imageElement.src = "https://github.com/Lunastellia/ilevel/blob/main/pic/head2.png";
                 break;
             case "3":
-                imageElement.src = "pic/head3.png";
+                imageElement.src = "https://github.com/Lunastellia/ilevel/blob/main/pic/head3.png";
                 break;
         }
     });
@@ -37,10 +37,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
         switch (selectedValue) {
             case "5":
-                imageElement2.src = "div/truc.png";
+                imageElement2.src = "https://github.com/Lunastellia/ilevel/blob/main/pic/head0.png";
                 break;
             case "10":
-                imageElement2.src = "div/bidule.png";
+                imageElement2.src = "https://github.com/Lunastellia/ilevel/blob/main/pic/head2.png";
                 break;
         }
     });
