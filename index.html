@@ -9,35 +9,43 @@
 <body>
     <div class="container">
         <h1>Image Changer App</h1>
-        
+
         <!-- Premier ensemble de menus déroulants -->
         <div class="image-container">
-            <img id="image" src="https://github.com/Lunastellia/ilevel/blob/main/pic/head0.png" alt="Image">
+            <img id="image" src="pic/head0.png" alt="Image">
         </div>
         <div class="dropdown">
             <select id="image-selector">
-                <option value="0">None</option>
-                <option value="1">Test 1</option>
-                <option value="2">Test 2</option>
-                <option value="3">Test 3</option>
+                <option value="0" data-value="0">None</option>
+                <option value="1" data-value="6">Test 1</option>
+                <option value="2" data-value="8">Test 2</option>
+                <option value="3" data-value="10">Test 3</option>
             </select>
         </div>
-        <p id="selected-value">0</p>
-        
+        <p id="selected-value">Selected Value: 0</p>
+
         <!-- Deuxième ensemble de menus déroulants -->
         <div class="image-container">
-            <img id="image2" src="https://github.com/Lunastellia/ilevel/blob/main/pic/head0.png" alt="Image">
+            <img id="image2" src="div/truc.png" alt="Image">
         </div>
         <div class="dropdown">
             <select id="image-selector2">
-                <option value="5">Truc</option>
-                <option value="10">Bidule</option>
+                <option value="5" data-value="3">Truc</option>
+                <option value="10" data-value="3">Bidule</option>
             </select>
         </div>
-        <p id="selected-value2">5</p>
+        <p id="selected-value2">Selected Value: 5</p>
+
+        <!-- Valeurs Ilevel global, Valeur offensive et Valeur defensive -->
+        <div class="ilevel-container">
+            <p>Ilevel Global: <span id="ilevel-value">0</span></p>
+            <p>Valeur Offensive: <span id="offensive-value">0</span></p>
+            <p>Valeur Defensive: <span id="defensive-value">0</span></p>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
 </html>
+
 
 
