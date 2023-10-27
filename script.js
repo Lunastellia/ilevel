@@ -55,7 +55,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const imageElement17 = document.getElementById("image17");
     const selectorElement17 = document.getElementById("image-selector17");
 
+//Enchant
 
+   const userInput1 = document.getElementById("user-input1");
+   const userInput2 = document.getElementById("user-input2");
+   const userInput3 = document.getElementById("user-input3");
+   const userInput4 = document.getElementById("user-input4");
+   const userInput5 = document.getElementById("user-input5");
+   const userInput6 = document.getElementById("user-input6");
     
 
     // Valeurs Ilevel global, Valeur offensive et Valeur defensive
