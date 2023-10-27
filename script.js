@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
    
     // class
-    const imageElement = document.getElementById("image");
-    const selectorElement = document.getElementById("image-selector");
+    const imageElement1 = document.getElementById("image1");
+    const selectorElement1 = document.getElementById("image-selector1");
     
    //Armes
     // Deuxième ensemble de menus déroulants
