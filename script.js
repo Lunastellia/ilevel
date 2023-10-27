@@ -55,34 +55,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const imageElement17 = document.getElementById("image17");
     const selectorElement17 = document.getElementById("image-selector17");
 
-       const Ench1 = parseInt(userValue1);
-       const Ench2 = 0;
-       const Ench3 = 0;
-       const Ench4 = 0;
-       const Ench5 = 0;
-       const Ench6 = 0;
+      
    
-//Enchant
 
-  // Récupérer le champ de texte et la "valeur offensive"
-const userInput1 = document.getElementById("user-input1");
-
-// Ajouter un gestionnaire d'événements "change" au champ de texte
-userInput.addEventListener("change", function () {
-    // Récupérer la nouvelle valeur du champ de texte
-    const userValue1 = userInput1.value;
-
-    // Convertir la valeur en nombre
-    const userValueNumber1 = parseInt(userValue1);
-
-    // Assurez-vous que la valeur est dans la plage de 0 à 15
-    if (!isNaN(userValueNumbe1r) && userValueNumber1 >= 0 && userValueNumber1 <= 15) {
-        Ench1 = userValueNumber1;
-    } else {
-        // Gérer le cas où la valeur est en dehors de la plage
-        Ench1 = 0;
-    }
-});
     // Valeurs Ilevel global, Valeur offensive et Valeur defensive
     const ilevelValueElement = document.getElementById("ilevel-value");
     const offensiveValueElement = document.getElementById("offensive-value");
@@ -144,8 +119,8 @@ userInput.addEventListener("change", function () {
     
 
        
-        ilevelValueElement.textContent = Ench1 + selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10 + selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17;
-        offensiveValueElement.textContent = Ench1 + selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10;
+        ilevelValueElement.textContent = selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10 + selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17;
+        offensiveValueElement.textContent = selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10;
         defensiveValueElement.textContent = selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17;
 
         imageElement.src = imageSrc1;
