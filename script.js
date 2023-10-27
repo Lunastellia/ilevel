@@ -150,8 +150,8 @@ decreaseButton.addEventListener("click", function () {
     const selectedValue17 = parseInt(selectorElement17.options[selectorElement17.selectedIndex].getAttribute("data-value"), 10);
     const imageSrc17 = selectorElement17.options[selectorElement17.selectedIndex].getAttribute("data-image");
 
-    const Ench = parseInt(enchWeaponInput.value);
-       const Enchw = Ench + 1;
+    const selectedValueench1 = parseInt(enchWeaponInput.value);
+       const Enchw = selectedValueench1 + 1;
 
 
        
@@ -181,6 +181,7 @@ decreaseButton.addEventListener("click", function () {
     }
 
     // Gestionnaires d'événements pour les menus déroulants
+    selectedValueench1.addEventListener("change", updateValues);
     selectorElement.addEventListener("change", updateValues);
     selectorElement2.addEventListener("change", updateValues);
     selectorElement3.addEventListener("change", updateValues);
