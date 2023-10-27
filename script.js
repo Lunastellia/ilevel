@@ -57,14 +57,26 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //Enchant
 
-   const userInput1 = document.getElementById("user-input1");
-   const userInput2 = document.getElementById("user-input2");
-   const userInput3 = document.getElementById("user-input3");
-   const userInput4 = document.getElementById("user-input4");
-   const userInput5 = document.getElementById("user-input5");
-   const userInput6 = document.getElementById("user-input6");
-   const ench1 = parseInt(userInput1 * 2);
+  // Récupérer le champ de texte et la "valeur offensive"
+const userInput1 = document.getElementById("user-input1");
 
+// Ajouter un gestionnaire d'événements "change" au champ de texte
+userInput.addEventListener("change", function () {
+    // Récupérer la nouvelle valeur du champ de texte
+    const userValue1 = userInput1.value;
+
+    // Convertir la valeur en nombre
+    const userValueNumber1 = parseInt(userValue1);
+
+    // Assurez-vous que la valeur est dans la plage de 0 à 15
+    if (!isNaN(userValueNumbe1r) && userValueNumber1 >= 0 && userValueNumber1 <= 15) {
+        // Mettre à jour la "valeur offensive"
+        Ench1 = userValueNumber1;
+    } else {
+        // Gérer le cas où la valeur est en dehors de la plage
+        Ench1 = 0;
+    }
+});
     // Valeurs Ilevel global, Valeur offensive et Valeur defensive
     const ilevelValueElement = document.getElementById("ilevel-value");
     const offensiveValueElement = document.getElementById("offensive-value");
@@ -123,9 +135,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const selectedValue17 = parseInt(selectorElement17.options[selectorElement17.selectedIndex].getAttribute("data-value"), 10);
     const imageSrc17 = selectorElement17.options[selectorElement17.selectedIndex].getAttribute("data-image");
 
+    const Ench1 = 0;
 
-        ilevelValueElement.textContent = selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10 + selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17;
-        offensiveValueElement.textContent = ench1 + selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10;
+       
+        ilevelValueElement.textContent = Ench1 + selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10 + selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17;
+        offensiveValueElement.textContent = Enchn1 + selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10;
         defensiveValueElement.textContent = selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17;
 
         imageElement.src = imageSrc1;
