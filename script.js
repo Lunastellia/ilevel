@@ -92,8 +92,9 @@ document.addEventListener("DOMContentLoaded", function () {
    
     // Fonction pour mettre à jour les valeurs
     function updateValues() {
-    const selectedValue1 = parseInt(selectorElement.options[selectorElement.selectedIndex].getAttribute("data-value"), 10);
-    const imageSrc1 = selectorElement.options[selectorElement.selectedIndex].getAttribute("data-image");
+    
+       const selectedValue1 = parseInt(selectorElement1.options[selectorElement1.selectedIndex].getAttribute("data-value"), 10);
+    const imageSrc1 = selectorElement1.options[selectorElement1.selectedIndex].getAttribute("data-image");
 
     const selectedValue2 = parseInt(selectorElement2.options[selectorElement2.selectedIndex].getAttribute("data-value"), 10);
     const imageSrc2 = selectorElement2.options[selectorElement2.selectedIndex].getAttribute("data-image");
@@ -172,7 +173,7 @@ document.addEventListener("DOMContentLoaded", function () {
         offensiveValueElement.textContent = (selectedValue18 * selectedValue1) + selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10;
         defensiveValueElement.textContent = selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17;
 
-        imageElement.src = imageSrc1;
+        imageElement1.src = imageSrc1;
         imageElement2.src = imageSrc2;
         imageElement3.src = imageSrc3;
         imageElement4.src = imageSrc4;
@@ -200,7 +201,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Gestionnaires d'événements pour les menus déroulants
-    selectorElement.addEventListener("change", updateValues);
+    selectorElement1.addEventListener("change", updateValues);
     selectorElement2.addEventListener("change", updateValues);
     selectorElement3.addEventListener("change", updateValues);
     selectorElement4.addEventListener("change", updateValues);
