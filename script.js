@@ -76,8 +76,44 @@ document.addEventListener("DOMContentLoaded", function () {
    
     const imageElement24 = document.getElementById("image24");
     const selectorElement24 = document.getElementById("image-selector24");
-   
-  
+
+   //STATS
+   const imageElement24 = document.getElementById("image24");
+   const selectorElement24 = document.getElementById("image-selector24");
+
+   const imageElement24 = document.getElementById("image24");
+   const selectorElement24 = document.getElementById("image-selector24");
+
+   const imageElement25 = document.getElementById("image25");
+   const selectorElement25 = document.getElementById("image-selector25");
+
+   const imageElement26 = document.getElementById("image26");
+   const selectorElement26 = document.getElementById("image-selector26");
+
+   const imageElement27 = document.getElementById("image27");
+   const selectorElement27 = document.getElementById("image-selector27");
+
+   const imageElement28 = document.getElementById("image28");
+   const selectorElement28 = document.getElementById("image-selector28");
+
+   const imageElement29 = document.getElementById("image29");
+   const selectorElement29 = document.getElementById("image-selector29");
+
+   const imageElement30 = document.getElementById("image30");
+   const selectorElement30 = document.getElementById("image-selector30");
+
+   const imageElement31 = document.getElementById("image31");
+   const selectorElement31 = document.getElementById("image-selector31");
+
+   const imageElement32 = document.getElementById("image32");
+   const selectorElement32 = document.getElementById("image-selector32");
+
+   const imageElement33 = document.getElementById("image33");
+   const selectorElement33 = document.getElementById("image-selector33");
+
+   const imageElement34 = document.getElementById("image34");
+   const selectorElement34 = document.getElementById("image-selector34");
+
 
       
    
@@ -177,7 +213,39 @@ document.addEventListener("DOMContentLoaded", function () {
     const selectedValue24 = parseInt(selectorElement24.options[selectorElement24.selectedIndex].getAttribute("data-value"), 10);
     const imageSrc24 = selectorElement24.options[selectorElement24.selectedIndex].getAttribute("data-image");
 
-       
+    const selectedValue24 = parseInt(selectorElement24.options[selectorElement24.selectedIndex].getAttribute("data-value"), 10);
+    const imageSrc24 = selectorElement24.options[selectorElement24.selectedIndex].getAttribute("data-image");
+
+    const selectedValue25 = parseInt(selectorElement25.options[selectorElement25.selectedIndex].getAttribute("data-value"), 10);
+    const imageSrc25 = selectorElement25.options[selectorElement25.selectedIndex].getAttribute("data-image");
+
+    const selectedValue26 = parseInt(selectorElement26.options[selectorElement26.selectedIndex].getAttribute("data-value"), 10);
+    const imageSrc26 = selectorElement26.options[selectorElement26.selectedIndex].getAttribute("data-image");
+
+    const selectedValue27 = parseInt(selectorElement27.options[selectorElement27.selectedIndex].getAttribute("data-value"), 10);
+    const imageSrc27 = selectorElement27.options[selectorElement27.selectedIndex].getAttribute("data-image");
+
+    const selectedValue28 = parseInt(selectorElement28.options[selectorElement28.selectedIndex].getAttribute("data-value"), 10);
+    const imageSrc28 = selectorElement28.options[selectorElement28.selectedIndex].getAttribute("data-image");
+
+    const selectedValue29 = parseInt(selectorElement29.options[selectorElement29.selectedIndex].getAttribute("data-value"), 10);
+    const imageSrc29 = selectorElement29.options[selectorElement29.selectedIndex].getAttribute("data-image");
+
+    const selectedValue30 = parseInt(selectorElement30.options[selectorElement30.selectedIndex].getAttribute("data-value"), 10);
+    const imageSrc30 = selectorElement30.options[selectorElement30.selectedIndex].getAttribute("data-image");
+
+    const selectedValue31 = parseInt(selectorElement31.options[selectorElement31.selectedIndex].getAttribute("data-value"), 10);
+    const imageSrc31 = selectorElement31.options[selectorElement31.selectedIndex].getAttribute("data-image");
+
+    const selectedValue32 = parseInt(selectorElement32.options[selectorElement32.selectedIndex].getAttribute("data-value"), 10);
+    const imageSrc32 = selectorElement32.options[selectorElement32.selectedIndex].getAttribute("data-image");
+
+    const selectedValue33 = parseInt(selectorElement33.options[selectorElement33.selectedIndex].getAttribute("data-value"), 10);
+    const imageSrc33 = selectorElement33.options[selectorElement33.selectedIndex].getAttribute("data-image");
+
+    const selectedValue34 = parseInt(selectorElement34.options[selectorElement34.selectedIndex].getAttribute("data-value"), 10);
+    const imageSrc34 = selectorElement34.options[selectorElement34.selectedIndex].getAttribute("data-image");
+  
 
        
 
@@ -211,6 +279,18 @@ document.addEventListener("DOMContentLoaded", function () {
         imageElement22.src = imageSrc22;
         imageElement23.src = imageSrc23;
         imageElement24.src = imageSrc24;
+        imageElement24.src = imageSrc24;
+        imageElement25.src = imageSrc25;
+        imageElement26.src = imageSrc26;
+        imageElement27.src = imageSrc27;
+        imageElement28.src = imageSrc28;
+        imageElement29.src = imageSrc29;
+        imageElement30.src = imageSrc30;
+        imageElement31.src = imageSrc31;
+        imageElement32.src = imageSrc32;
+        imageElement33.src = imageSrc33;
+        imageElement34.src = imageSrc34;
+
         
     }
 
@@ -239,6 +319,17 @@ document.addEventListener("DOMContentLoaded", function () {
     selectorElement22.addEventListener("change", updateValues);
     selectorElement23.addEventListener("change", updateValues);
     selectorElement24.addEventListener("change", updateValues);
+    selectorElement24.addEventListener("change", updateValues);
+    selectorElement25.addEventListener("change", updateValues);
+    selectorElement26.addEventListener("change", updateValues);
+    selectorElement27.addEventListener("change", updateValues);
+    selectorElement28.addEventListener("change", updateValues);
+    selectorElement29.addEventListener("change", updateValues);
+    selectorElement30.addEventListener("change", updateValues);
+    selectorElement31.addEventListener("change", updateValues);
+    selectorElement32.addEventListener("change", updateValues);
+    selectorElement33.addEventListener("change", updateValues);
+    selectorElement34.addEventListener("change", updateValues);
 
 
 
