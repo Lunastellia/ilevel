@@ -45,15 +45,29 @@ h1 {
 #image-selector18 {
     width: 54px
 }
+#image-selector19 {
+    width: 54px
+}
+#image-selector20 {
+    width: 54px
+}
+#image-selector21 {
+    width: 54px
+}
+#image-selector22 {
+    width: 54px
+}
+#image-selector23 {
+    width: 54px
+}
+#image-selector24 {
+    width: 54px
+}
+
 select {
     font-size: 16px; /* Ajustez la taille de police selon vos préférences */
     padding: 5px;
     width: 200px;
-}
-
-#image-selector18 {
-    width: 54px
-    margin-bottom: -20px;
 }
 
 
