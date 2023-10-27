@@ -9,7 +9,7 @@ body {
     background-color: #000;
     color: #fff;
     text-align: center;
-    background-image: https://github.com/Lunastellia/ilevel/blob/main/pic/bg.PNG
+    background-image:url(pic/bg.png);
 }
 
 .container {
