@@ -113,7 +113,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
    const imageElement34 = document.getElementById("image34");
    const selectorElement34 = document.getElementById("image-selector34");
-
+   
+   const imageElement35 = document.getElementById("image35");
+   const selectorElement35 = document.getElementById("image-selector35");
 
       
    
@@ -246,7 +248,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const selectedValue34 = parseInt(selectorElement34.options[selectorElement34.selectedIndex].getAttribute("data-value"), 10);
     const imageSrc34 = selectorElement34.options[selectorElement34.selectedIndex].getAttribute("data-image");
   
-
+    const selectedValue35 = parseInt(selectorElement35.options[selectorElement35.selectedIndex].getAttribute("data-value"), 10);
+    const imageSrc35 = selectorElement35.options[selectorElement35.selectedIndex].getAttribute("data-image");
        
 
 
@@ -290,6 +293,7 @@ document.addEventListener("DOMContentLoaded", function () {
         imageElement32.src = imageSrc32;
         imageElement33.src = imageSrc33;
         imageElement34.src = imageSrc34;
+        imageElement35.src = imageSrc35;
 
         
     }
@@ -330,6 +334,7 @@ document.addEventListener("DOMContentLoaded", function () {
     selectorElement32.addEventListener("change", updateValues);
     selectorElement33.addEventListener("change", updateValues);
     selectorElement34.addEventListener("change", updateValues);
+    selectorElement35.addEventListener("change", updateValues);
 
 
 
