@@ -246,9 +246,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
        
-        ilevelValueElement.textContent = (selectedValue18 * selectedValue1) + selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10 + selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17;
-        offensiveValueElement.textContent = (selectedValue18 * selectedValue1) + selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10;
-        defensiveValueElement.textContent = selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17;
+        ilevelValueElement.textContent = (selectedValue18 * selectedValue1) + (selectedValue25 * MAG) + (selectedValue26 * PMAG) + (selectedValue27 * CMAG) + (selectedValue28 * PHY) + (selectedValue29 * PRE) + (selectedValue30 * CRIT) + (selectedValue31 * ESQ) + (selectedValue32 * PARA) + (selectedValue33 * BLOC) + (selectedValue34 * RES) + (selectedValue35 * VIE) + selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10 + selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17 + selectedValue19 + selectedValue20 + selectedValue21 + selectedValue22 + selectedValue23 + selectedValue24;
+        offensiveValueElement.textContent = (selectedValue18 * selectedValue1) + (selectedValue25 * MAG) + (selectedValue26 * PMAG) + (selectedValue27 * CMAG) + (selectedValue28 * PHY) + (selectedValue29 * PRE) + (selectedValue30 * CRIT) + selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10;
+        defensiveValueElement.textContent = (selectedValue31 * ESQ) + (selectedValue32 * PARA) + (selectedValue33 * BLOC) + (selectedValue34 * RES) + (selectedValue35 * VIE) + selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17 + selectedValue19 + selectedValue20 + selectedValue21 + selectedValue22 + selectedValue23 + selectedValue24;
 
         imageElement1.src = imageSrc1;
         imageElement2.src = imageSrc2;
