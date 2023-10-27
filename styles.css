@@ -107,14 +107,51 @@ select {
 
 td {
     vertical-align: top;
-    margin: 30px; 
+    margin: 40px; 
 }
+
 
 #image18 {
     text-align: center;
     height: 0px;
     width: 0px
     margin-left: 2px;
+}
+#image19 {
+    text-align: center;
+    height: 0px;
+    width: 0px
+    margin-left: 1px;
+}
+#image20 {
+    text-align: center;
+    height: 0px;
+    width: 0px
+    margin-left: 1px;
+}
+#image21 {
+    text-align: center;
+    height: 0px;
+    width: 0px
+    margin-left: 1px;
+}
+#image22 {
+    text-align: center;
+    height: 0px;
+    width: 0px
+    margin-left: 1px;
+}
+#image23 {
+    text-align: center;
+    height: 0px;
+    width: 0px
+    margin-left: 1px;
+}
+#image24 {
+    text-align: center;
+    height: 0px;
+    width: 0px
+    margin-left: 1px;
 }
 
 .ilevel-container {
