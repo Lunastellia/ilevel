@@ -46,15 +46,16 @@ select {
     font-size: 16px; /* Ajustez la taille de police selon vos préférences */
     padding: 5px;
     width: 200px;
+
+    #image-selector18 {
+    width: 40px
+}
 }
 
 
 td {
     vertical-align: top;
     margin: 10px; 
-}
-#image-selector18 dropdown {
-    width: 40px
 }
 
 #image18 {
