@@ -53,18 +53,15 @@ td {
     vertical-align: top;
     margin: 10px; 
 }
-#image-selector18 img {
-    text-align: center;
-    height: 25px;
-    width: 25px
-    margin-left: 5px;
+#image-selector18 select {
+    width: 40px
 }
 
 #image18 {
     text-align: center;
-    height: 1px;
-    width: 1px
-    margin-left: 1px;
+    height: 0px;
+    width: 0px
+    margin-left: 2px;
 }
 
 .ilevel-container {
