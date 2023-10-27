@@ -53,7 +53,7 @@ td {
     vertical-align: top;
     margin: 10px; 
 }
-#image-selector18 select {
+#image-selector18 dropdown {
     width: 40px
 }
 
