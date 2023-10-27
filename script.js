@@ -148,7 +148,6 @@ decreaseButton.addEventListener("click", function () {
     const selectedValue17 = parseInt(selectorElement17.options[selectorElement17.selectedIndex].getAttribute("data-value"), 10);
     const imageSrc17 = selectorElement17.options[selectorElement17.selectedIndex].getAttribute("data-image");
 
-    const enchWeaponInput = document.getElementById("ench-weapon");
     const enchWeaponcurrentValue = parseInt(enchWeaponInput.value);
 
        
