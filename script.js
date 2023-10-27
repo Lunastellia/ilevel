@@ -62,19 +62,19 @@ document.addEventListener("DOMContentLoaded", function () {
     const imageElement19 = document.getElementById("image19");
     const selectorElement19 = document.getElementById("image-selector19");
    
-   const imageElement20 = document.getElementById("image20");
+    const imageElement20 = document.getElementById("image20");
     const selectorElement20 = document.getElementById("image-selector20");
    
-   const imageElement21 = document.getElementById("image21");
+    const imageElement21 = document.getElementById("image21");
     const selectorElement21 = document.getElementById("image-selector21");
    
-   const imageElement22 = document.getElementById("image22");
+    const imageElement22 = document.getElementById("image22");
     const selectorElement22 = document.getElementById("image-selector22");
    
-   const imageElement23 = document.getElementById("image23");
+    const imageElement23 = document.getElementById("image23");
     const selectorElement23 = document.getElementById("image-selector23");
    
-   const imageElement24 = document.getElementById("image24");
+    const imageElement24 = document.getElementById("image24");
     const selectorElement24 = document.getElementById("image-selector24");
    
   
@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Fonction pour mettre à jour les valeurs
     function updateValues() {
     
-       const selectedValue1 = parseInt(selectorElement1.options[selectorElement1.selectedIndex].getAttribute("data-value"), 10);
+    const selectedValue1 = parseInt(selectorElement1.options[selectorElement1.selectedIndex].getAttribute("data-value"), 10);
     const imageSrc1 = selectorElement1.options[selectorElement1.selectedIndex].getAttribute("data-image");
 
     const selectedValue2 = parseInt(selectorElement2.options[selectorElement2.selectedIndex].getAttribute("data-value"), 10);
@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const selectedValue7 = parseInt(selectorElement7.options[selectorElement7.selectedIndex].getAttribute("data-value"), 10);
     const imageSrc7 = selectorElement7.options[selectorElement7.selectedIndex].getAttribute("data-image");
 
-        const selectedValue8 = parseInt(selectorElement8.options[selectorElement8.selectedIndex].getAttribute("data-value"), 10);
+    const selectedValue8 = parseInt(selectorElement8.options[selectorElement8.selectedIndex].getAttribute("data-value"), 10);
     const imageSrc8 = selectorElement8.options[selectorElement8.selectedIndex].getAttribute("data-image");
 
     const selectedValue9 = parseInt(selectorElement9.options[selectorElement9.selectedIndex].getAttribute("data-value"), 10);
@@ -219,12 +219,12 @@ document.addEventListener("DOMContentLoaded", function () {
     selectorElement16.addEventListener("change", updateValues);
     selectorElement17.addEventListener("change", updateValues);
     selectorElement18.addEventListener("change", updateValues);
-   selectorElement19.addEventListener("change", updateValues);
-   selectorElement20.addEventListener("change", updateValues);
-   selectorElement21.addEventListener("change", updateValues);
-   selectorElement22.addEventListener("change", updateValues);
-   selectorElement23.addEventListener("change", updateValues);
-   selectorElement24.addEventListener("change", updateValues);
+    selectorElement19.addEventListener("change", updateValues);
+    selectorElement20.addEventListener("change", updateValues);
+    selectorElement21.addEventListener("change", updateValues);
+    selectorElement22.addEventListener("change", updateValues);
+    selectorElement23.addEventListener("change", updateValues);
+    selectorElement24.addEventListener("change", updateValues);
 
 
 
