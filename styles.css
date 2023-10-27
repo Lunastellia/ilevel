@@ -9,21 +9,10 @@ body {
     background-color: #000;
     color: #fff;
     text-align: center;
-
-  background: url('https://vod.plaync.com/Aion/update/20231025/SC/fist_bg_03_chrt.mp4') no-repeat;
-  background-size: cover; /* Ajustez cette propriété pour le dimensionnement de la vidéo */
-  background-attachment: fixed; /* Facultatif : permet de fixer le fond en position fixe */
-  animation: playVideo 4s linear infinite; /* Pour les navigateurs qui ne prennent pas en charge 'loop' */
     /*background-image:url(pic/bg.PNG);*/
 }
 
-@keyframes playVideo {
-  0% {
-    background-position: 0% 0;
-  }
-  100% {
-    background-position: 100% 100;
-  }
+
 
 .container {
     text-align: center;
