@@ -145,6 +145,22 @@ document.addEventListener("DOMContentLoaded", function () {
     // Gestionnaires d'événements pour les menus déroulants
     selectorElement.addEventListener("change", updateValues);
     selectorElement2.addEventListener("change", updateValues);
+    selectorElement3.addEventListener("change", updateValues);
+    selectorElement4.addEventListener("change", updateValues);
+    selectorElement5.addEventListener("change", updateValues);
+    selectorElement6.addEventListener("change", updateValues);
+    selectorElement7.addEventListener("change", updateValues);
+    selectorElement8.addEventListener("change", updateValues);
+    selectorElement9.addEventListener("change", updateValues);
+    selectorElement10.addEventListener("change", updateValues);
+    selectorElement11.addEventListener("change", updateValues);
+    selectorElement12.addEventListener("change", updateValues);
+    selectorElement13.addEventListener("change", updateValues);
+    selectorElement14.addEventListener("change", updateValues);
+    selectorElement15.addEventListener("change", updateValues);
+    selectorElement16.addEventListener("change", updateValues);
+    selectorElement17.addEventListener("change", updateValues);
+
 
     // Mise à jour des valeurs au chargement de la page
     updateValues();
