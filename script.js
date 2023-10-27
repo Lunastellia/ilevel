@@ -55,7 +55,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const imageElement17 = document.getElementById("image17");
     const selectorElement17 = document.getElementById("image-selector17");
 
-   
+   // Enchant
+    const imageElement18 = document.getElementById("image18");
+    const selectorElement18 = document.getElementById("image-selector18");
 
       
    
@@ -65,36 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const offensiveValueElement = document.getElementById("offensive-value");
     const defensiveValueElement = document.getElementById("defensive-value");
 
-// Récupérer le champ de texte et les boutons
-const enchWeaponInput = document.getElementById("ench-weapon");
-const increaseButton = document.getElementById("increase-button");
-const decreaseButton = document.getElementById("decrease-button");
 
-// Ajouter un gestionnaire d'événements au bouton d'augmentation
-increaseButton.addEventListener("click", function () {
-    // Récupérer la valeur actuelle de Ench_weapon
-    const currentValue = parseInt(enchWeaponInput.value);
-
-    // Vérifier si la valeur est dans la plage de 0 à 15
-    if (!isNaN(currentValue) && currentValue >= 0 && currentValue < 15) {
-        // Augmenter la valeur de Ench_weapon de 1
-        enchWeaponInput.value = currentValue + 1;
-       ench = enchWeaponInput.value;
-    }
-});
-
-// Ajouter un gestionnaire d'événements au bouton de diminution
-decreaseButton.addEventListener("click", function () {
-    // Récupérer la valeur actuelle de Ench_weapon
-    const currentValue = parseInt(enchWeaponInput.value);
-
-    // Vérifier si la valeur est dans la plage de 0 à 15
-    if (!isNaN(currentValue) && currentValue > 0 && currentValue <= 15) {
-        // Diminuer la valeur de Ench_weapon de 1
-        enchWeaponInput.value = currentValue - 1;
-        ench = enchWeaponInput.value;
-    }
-});
 
    
     // Fonction pour mettre à jour les valeurs
@@ -150,13 +123,13 @@ decreaseButton.addEventListener("click", function () {
     const selectedValue17 = parseInt(selectorElement17.options[selectorElement17.selectedIndex].getAttribute("data-value"), 10);
     const imageSrc17 = selectorElement17.options[selectorElement17.selectedIndex].getAttribute("data-image");
 
-    const selectedValueench1 = parseInt(enchWeaponInput.value);
-       const Enchw = selectedValueench1 + 1;
+    const selectedValue18 = parseInt(selectorElement18.options[selectorElement18.selectedIndex].getAttribute("data-value"), 10);
+    const imageSrc18 = selectorElement18.options[selectorElement18.selectedIndex].getAttribute("data-image");
 
 
        
-        ilevelValueElement.textContent = Enchw + selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10 + selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17;
-        offensiveValueElement.textContent = Enchw + selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10;
+        ilevelValueElement.textContent = selectedValue18 + selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10 + selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17;
+        offensiveValueElement.textContent = selectedValue18 selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10;
         defensiveValueElement.textContent = selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17;
 
         imageElement.src = imageSrc1;
@@ -176,12 +149,12 @@ decreaseButton.addEventListener("click", function () {
         imageElement15.src = imageSrc15;
         imageElement16.src = imageSrc16;
         imageElement17.src = imageSrc17;
+       imageElement18.src = imageSrc18;
 
         
     }
 
     // Gestionnaires d'événements pour les menus déroulants
-    selectedValueench1.addEventListener("change", updateValues);
     selectorElement.addEventListener("change", updateValues);
     selectorElement2.addEventListener("change", updateValues);
     selectorElement3.addEventListener("change", updateValues);
@@ -199,6 +172,8 @@ decreaseButton.addEventListener("click", function () {
     selectorElement15.addEventListener("change", updateValues);
     selectorElement16.addEventListener("change", updateValues);
     selectorElement17.addEventListener("change", updateValues);
+    selectorElement18.addEventListener("change", updateValues);
+
 
 
     // Mise à jour des valeurs au chargement de la page
