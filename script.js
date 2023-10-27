@@ -164,7 +164,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const selectedValue24 = parseInt(selectorElement24.options[selectorElement24.selectedIndex].getAttribute("data-value"), 10);
     const imageSrc24 = selectorElement24.options[selectorElement24.selectedIndex].getAttribute("data-image");
 
-       const EnchClass = selectedValue18 * selectedValue;
+       const EnchClass = (selectedValue18 * selectedValue);
 
 
        
