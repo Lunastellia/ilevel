@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
    const userInput4 = document.getElementById("user-input4");
    const userInput5 = document.getElementById("user-input5");
    const userInput6 = document.getElementById("user-input6");
-    
+   const ench1 = parseInt(userInput1 * 2);
 
     // Valeurs Ilevel global, Valeur offensive et Valeur defensive
     const ilevelValueElement = document.getElementById("ilevel-value");
@@ -125,7 +125,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
         ilevelValueElement.textContent = selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10 + selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17;
-        offensiveValueElement.textContent = selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10;
+        offensiveValueElement.textContent = ench1 + selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10;
         defensiveValueElement.textContent = selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17;
 
         imageElement.src = imageSrc1;
