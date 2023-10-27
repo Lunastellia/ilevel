@@ -151,8 +151,8 @@ decreaseButton.addEventListener("click", function () {
     
 
        
-        ilevelValueElement.textContent = currentValue + selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10 + selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17;
-        offensiveValueElement.textContent = currentValue + selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10;
+        ilevelValueElement.textContent = enchWeaponInput + selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10 + selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17;
+        offensiveValueElement.textContent = enchWeaponInput + selectedValue2 + selectedValue3 + selectedValue4 + selectedValue5 + selectedValue6 + selectedValue7 + selectedValue8 + selectedValue9 + selectedValue10;
         defensiveValueElement.textContent = selectedValue11 + selectedValue12 + selectedValue13 + selectedValue14 + selectedValue15 + selectedValue16 + selectedValue17;
 
         imageElement.src = imageSrc1;
