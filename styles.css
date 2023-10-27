@@ -13,7 +13,11 @@ body {
 
 .container {
     text-align: center;
-    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 h1 {
@@ -21,8 +25,27 @@ h1 {
     margin-bottom: 20px;
 }
 
+.image-select-container {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
 
+.image-select-container img {
+    height: 80px; /* Ajustez la hauteur selon vos préférences */
+    margin-right: 10px;
+}
 
+.dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centrer les menus déroulants */
+}
+
+select {
+    font-size: 16px; /* Ajustez la taille de police selon vos préférences */
+    padding: 5px;
+}
 
 .ilevel-container {
     text-align: center;
